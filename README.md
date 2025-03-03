@@ -8,14 +8,8 @@ to address pressing ecological challenges.
 
 - [About](#about)
 - [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
 
 ## About
 
@@ -33,3 +27,17 @@ ESCN provides a centralized platform where environmental professionals can:
 - **Analytical Tools:** Integrated software for data processing and visualization.
 - **Knowledge Base:** Articles, tutorials, and resources on environmental science topics.
 
+## Usage
+
+Once the application is running:
+	-	Register an Account: Sign up to access all features.
+	-	Explore Datasets: Browse and download available environmental datasets.
+	-	Create Projects: Initiate collaborative projects and invite members.
+	-	Utilize Tools: Access analytical and visualization tools for your research.
+
+## Contact
+
+For questions or suggestions:
+	-	Project Lead: Ashley
+	-	Email: ashley@example.com
+	-	LinkedIn: Ashley
