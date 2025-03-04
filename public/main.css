@@ -1,3 +1,5 @@
-body {
-    background-color: whitesmoke;
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Update CSS variables */
+    }
 }
