@@ -1,65 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=1.0, initial-scale=1.0">
-    <link rel="stylesheet" href="/bulma.css">
-    <link rel="stylesheet" href="main.css">
-    <title>ESCN | Environmental Science Collaborative Network</title>
-</head>
+<%- include('partials/head') %>
 
-<body>
-    <nav class="navbar has-background-success-dark" role="navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item is-large" href="/">
-                <div class="title">ESCN</div>
-                <div>Science <span><i>first.</i></span></div>
-            </a>
+    <body>
+        <%- include('partials/nav') %>
 
-            <a role="button" class="navbar-burger" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
+            <img src="greenery-1.jpg" alt="greenery by Ashley Buchanan">
 
-        <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item">
-                    Documentation
-                </a>
-                <a class="navbar-item">
-                    About
-                </a>
-                <a class="navbar-item">
-                    Jobs
-                </a>
-                <a class="navbar-item">
-                    Contact
-                </a>
-            </div>
-        </div>
-
-        <div class="navbar-end">
-            <a class="navbar-item">
-                Report an issue
-            </a>
-            <div class="navbar-item">
-                <div class="buttons">
-                    <a class="button is-primary-dark">
-                        <strong>Sign up</strong>
-                    </a>
-                    <a class="button is-light-dark">
-                        Log in
-                    </a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <script src="main.js"></script>
-</body>
+            <script src="main.js"></script>
+    </body>
 
 </html>
