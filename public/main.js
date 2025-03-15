@@ -17,4 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+const img = document.querySelector('.banner');
+function updateImageHeight() {
+    let height = img.clientHeight;
+    console.log(height)
+    img.style.top = `${500 - height}px`;
 
+}
+
+window.addEventListener('load', updateImageHeight);
+window.addEventListener('resize', updateImageHeight);
