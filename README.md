@@ -38,6 +38,6 @@ Once the application is running:
 ## Contact
 
 For questions or suggestions:
-	-	Project Lead: Ashley
-	-	Email: ashley@example.com
-	-	LinkedIn: Ashley
+	-	Project Lead: Ashley Buchanan
+	-	Email: [AshleyBuchanan](ashleyshanebuchanan@gmail.com)
+	-	LinkedIn: [AshleyBuchanan](https://www.linkedin.com/in/ashleysbuchanan/)

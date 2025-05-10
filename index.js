@@ -3,17 +3,23 @@ const express = require('express');
 const methodOverride = require('method-override');
 const path = require('path');
 const app = express();
+const host = 'localhost';
 const port = 3000;
 
 app.use(methodOverride('__method'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-    res.send('hello from ESCN');
+    res.render('home');
+});
+
+app.get('/about', (req, res) => {
+    res.render('about');
 });
 
 app.listen(port, () => {
-    console.log(`listening on port${port}.`);
+    console.log(`listening on ${host}:${port}.`);
 });
